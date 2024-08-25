@@ -195,13 +195,14 @@ body{
     background-color: #333333;
 }
 .facts{
-    margin-bottom: 200px;
+    margin-bottom: 12%;
     margin-left: 3%;
     border-radius: 26px;
 }
 .upper-main-container{
     padding: 100 0;
     position: relative;
+    background-color: #e7d8d8;
     z-index: 100;
 }
 .textBBox{
@@ -230,9 +231,9 @@ body{
     position: relative; 
     border-radius: 20px;
     padding: 3% 25% 50% 20%;
-    /* margin: 8px 0px 0px 5px; */
+    margin: 2% 0% 0 2%;
     /* top: 0; */
-    width: 100%;
+    width: 96%;
     max-height: 50%;
     background-color: rgba(0, 0, 0, 0.4);
     /* background-size: 100vw 97vh; */
@@ -897,6 +898,7 @@ option{
     /* background-image: url('/images/h1-background-2.jpg'); */
     background-size: cover;
     background-position: center; 
+    background-color:#e7d8d8;
 }
 
 .see-more{
@@ -1530,7 +1532,7 @@ section.more-place{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     overflow-x: auto;
-    /* background-color: #e7d8d8; */
+    background-color: #e7d8d8;
 
     position: relative;
     /* border: 1px solid rgba(0, 0, 0, 0.2); Semi-transparent border */
@@ -1539,7 +1541,7 @@ section.more-place{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color:   #EBEBEB    ; /* Semi-transparent background */
+    /* background-color:   #EBEBEB    ; Semi-transparent background */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
 
@@ -1569,7 +1571,7 @@ section.more-place{
     margin: 10px;
      width: 100%;
     height: 69%; 
-        display: flex;
+    display: flex;
     cursor: pointer;
     color: black;
     padding: 12px;
@@ -1647,12 +1649,10 @@ section.more-place{
     /* font-size: 50px; */
     /* font-family: 'Playfair Display', serif; */
     margin-bottom: 20px;
-
-
     font-family: Clash Display;
 font-size: 64px;
-font-weight: 700;
-/* line-height: 61.12px; */
+font-weight: 900;
+line-height: 61.12px;
 text-align: left;
 
 }
@@ -1713,15 +1713,15 @@ text-align: left;
 }
 .ads-images img{
     width: 330px !important;
-    height: 100% !important;
+    height: 71% !important;
     border-radius: 43px;
 }
 
 #imgz{
     position: relative;
-    margin: 10px;
+    /* margin: 10px; */
     width: 497px !important;
-    height: 95% !important;
+    height: 80% !important;
     display: flex;
     cursor: pointer;
     color: black;
@@ -1803,7 +1803,7 @@ text-align: left;
 }
 .ads-inner-text{
     position: absolute;
-    bottom: 108px;
+    bottom: 357px;
     left: 35px;
     z-index: 1;
     max-width: 65%;
@@ -2276,7 +2276,7 @@ display: flex;
     border-radius: 26px;
     padding: 22px;
     margin-bottom: 10%;
-    height: 96vh;
+    height: 95%;
 }
 .ada-more-img img{
 width: 100%;
